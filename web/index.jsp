@@ -3,6 +3,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="../../style.css" type="text/cess">
         <title> Simple Salary Calculator </title>
     </head>    
     <body>
@@ -13,22 +14,22 @@
                 <tbbody>
                     <tr>
                         <td> Hours Worked: </td>
-                        <td><input type="integer" name="hoursWorked" value="" size="10"</td>
+                        <td><input type="integer" name="hoursWorked" value="" size="10" required></td>
                     </tr>   
                     
                     <tr>
                         <td> Hourly Pay: </td>
-                        <td><input type="integer" name="hourPay" value="" size="10"</td>
+                        <td><input type="integer" name="hourPay" value="" size="10" required></td>
                     </tr>
                     
                     <tr>
                         <td> Pre-Tax Deduct: </td>
-                        <td><input type="integer" name="preTax" value="" size="10"</td>
+                        <td><input type="integer" name="preTax" value="" size="10" required></td>
                     </tr>
                     
                     <tr>
                         <td> Post-Tax Deduct: </td>
-                        <td><input type="integer" name="postTax" value="" size="10"</td>
+                        <td><input type="integer" name="postTax" value="" size="10" required></td>
                     </tr>
                 </tbbody>                
             </table>
